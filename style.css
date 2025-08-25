@@ -1,0 +1,219 @@
+*{
+    /* width: 100%; */
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.panel1{
+    height: 700px;
+    width: 100%;
+    background-image: url("photo2.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    height: 90px;
+    /* width: 1200px; */
+    display: flex;
+}
+.logo-panel{
+    height: 40px;
+    width: 360px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.logo{
+    height: 40px;
+    width: 150px;
+    background-image: url("logo.jpg");
+    background-size: cover;
+}
+.lang{
+    height: 30px;
+    width: 760px;
+    margin-top: 25px;
+}
+.select{
+    height: 35px;
+    width: 120px;
+    background-color: black;
+    border-radius: 4px;
+    position: relative;
+    left: 600px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 6px 22px;
+}
+.link-select{
+    height: 35px;
+    width: 75px;
+    border-radius: 4px;
+    background-color: rgb(199, 33, 33);
+    position: relative;
+    left: 620px;
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.panel1-signbox{
+    height: 250px;
+    width: 870px    ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-top: 200px;
+}
+.panel1-head{
+    font-size: 2.6rem;
+    font-weight: 900;
+}
+.panel1-para{
+    font-size: 1.4rem;
+    margin-top: 12px;
+    margin-bottom: 30px;
+}
+.panel1-head3{
+    font-size: 1.2rem;
+}
+.input-box{
+    height: 45px;
+    width: 350px;
+    font-size: 1rem;
+    margin: 24px 16px 5px;
+    border: 0.05px solid rgb(144, 135, 135);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.645);
+    padding-left: 15px;
+}
+.panel1-button{
+    background-color: rgb(199, 33, 33);
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: 6600;
+}
+/** panel2 **/
+.panel2{
+    height: 400px;
+    /* width: 1450px; */
+    padding: 72px 0px;
+    background-color: black;
+    border-top: 8px solid rgba(43, 43, 43, 0.978);
+}
+.panel2-content{
+    height: 400px;
+    width: 1100px;
+    margin: 0px 160px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.descrip{
+    height: 160px;
+    width: 550px;
+}
+.descrip h2{
+    font-size: 2.7rem;
+    font-weight: 800;
+}
+.descrip p{
+    font-size: 1.5rem;
+    margin-top: 16px;
+}
+.panel2-image{
+    height:400px;
+    width: 550px;
+    background-size: cover;
+}
+/** question-panel **/
+.panel3{
+    height:800px;
+    /* width: 1450px; */
+    background-color: black;
+    padding: 72px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    border-bottom: 8px solid rgba(43, 43, 43, 0.978);
+
+}
+.question-panel{
+    height: 690px;
+    width: 1110px;
+}
+.question-panel h2{
+    font-size: 2.8rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.butt{
+    height: 85px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(43, 43, 43, 0.978);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.butt:hover{
+    background-color: rgb(77, 76, 76);
+}
+.butt-panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-span{
+    font-size: 1.4rem;  
+}
+.icon-span{
+    text-align: right;
+    font-size: 3rem;
+    text-align: right;
+}
+
+/** panel4 **/
+.panel4{
+    height: 400px;
+    background-color: black;
+}
+.panel4-content{   
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a{
+    margin-top: 15px;
+    display: block;
+    color:rgb(194, 192, 192);
+    font-size: 0.9rem;
+    text-decoration: underline;
+}
+.select2{
+    height: 35px;
+    width: 120px;
+    background-color: black;
+    border-radius: 4px;
+    position: relative;
+    left: 215px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    padding: 6px 22px;
+    margin-top: 25px;
+}
+.foot-para{
+    margin: 35px 0px;
+    position: relative;
+    left: 215px;
+    color:rgb(194, 192, 192);
+    font-size: 0.9rem;
+}
